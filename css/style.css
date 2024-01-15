@@ -1,0 +1,159 @@
+/* ==common styles start== */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Mulish;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+}
+img{
+    display: block;
+}
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.my_button{
+    padding: 15px 35px;
+    border-radius: 8px;
+    background: #FF5400;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+}
+/* ==common styles end== */
+/* ==header part start== */
+header nav{
+    padding: 30px;
+}
+header nav .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav .logo{
+    display: flex;
+    align-items: center;
+}
+header nav .logo h2{
+    color: #131318;
+    font-size: 36px;
+    font-weight: 800;
+    margin-left: 16px;
+}
+header nav .logo span{
+    color: #FF5400;
+    font-size: 36px;
+    font-weight: 800;
+}
+header nav .list ul{
+    display: flex;
+    column-gap: 44px;
+    align-items: center;
+}
+header nav .list ul li a{
+    color: #424247;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+header nav .list ul li .active{
+    color: #FF5400;
+}
+/* ==header part end== */
+/* ==banner part start== */
+#banner_part .container{
+    background: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 16px;
+    align-items: center;
+}
+#banner_part .overlay{
+    width: 100%;
+    height: 100%;
+    background: #15151688;
+    border-radius: 16px;
+}
+#banner_part h1{
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+    text-align: center;
+    margin: 105px 0 24px;
+}
+#banner_part p{
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+#banner_part .input_details{
+    display: inline-flex;
+    padding: 16px;
+    margin: 48px 0 105px 185px;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+}
+#banner_part .input_details input{
+    width: 175px;
+    height: 50px;
+    border: 0;
+    gap: 24px;
+}
+/* ==banner part end== */
+/* ==tour part start== */
+#tour_part{
+    margin: 100px 0;
+}
+#tour_part .container{
+    display: flex;
+    justify-content: space-between;
+}
+#tour_part .left h1{
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+#tour_part .left p{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 577px;
+    margin: 24px 0;
+}
+#tour_part .left li{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 525px;
+    margin-top: 16px;
+}
+#tour_part .left .my_button{
+    margin-top: 32px;
+}
+
+/* ==tour part end== */
