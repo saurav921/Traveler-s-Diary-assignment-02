@@ -35,6 +35,20 @@ img{
     font-size: 20px;
     font-weight: 800;
 }
+.section_title{
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+.section_description{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    /* width: 643px; */
+}
 /* ==common styles end== */
 /* ==header part start== */
 header nav{
@@ -155,5 +169,222 @@ header nav .list ul li .active{
 #tour_part .left .my_button{
     margin-top: 32px;
 }
-
 /* ==tour part end== */
+/* ==choose part start== */
+#choose_part .section_description{
+    margin: 24px 0 48px;
+}
+#choose_part .container h5{
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    margin: 24px 0 16px;
+}
+#choose_part .container p{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+#choose_part .all_box {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+#choose_part .all_box .box_1{
+    padding: 32px 55px 32px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+#choose_part .all_box .box_2{
+    padding: 32px 55px 32px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+#choose_part{
+    margin: 100px 0;
+}
+#choose_part .third_box{
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+}
+#choose_part .box_3{
+    padding: 32px 55px 32px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+/* ==choose part end== */
+/* ==DISCOUNT PART START-- */
+#discount_part .price{
+    background: url(../Images/Group\ 39.png);
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+     border-radius: 16px;
+     padding: 55px 0;
+     margin-bottom: 24px;
+}
+#discount_part .price .overlay{
+    width: 579px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    margin: 0 55px 0 535px;
+    padding: 50px;
+}
+#discount_part .price .icons{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+#discount_part .price .icons .time{
+    display: flex;
+    align-items: center;
+}
+#discount_part .price .icons .time p{
+    margin-left: 8px;
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+}
+#discount_part .price .icons .time i{
+    color: #FF5400;
+}
+#discount_part .price .overlay h4{
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    margin: 24px 0 16px;
+}
+#discount_part .price .overlay p{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+#discount_part .price .overlay h5{
+    color: #FF5400;
+    margin: 16px 0 24px;
+}
+
+#discount_part #second{
+    margin: 55px !important;
+}
+/* ==DISCOUNT PART END  -- */
+/* ==perfect_place part start== */
+#perfect_place{
+    margin: 100px 0;
+}
+#perfect_place .container{
+    display: flex;
+    justify-content: space-between;
+}
+#perfect_place .left h2{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 60px;
+}
+#perfect_place .left p{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 24px 0;
+}
+#perfect_place .left li{
+    color: #131318;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    margin-bottom: 22px;
+}
+#perfect_place .left a{
+    margin-top: 16px;
+}
+#perfect_place .container .right video{
+    height: 424px;
+    width: 610px;
+}
+#perfect_place .right{
+    position: relative;
+}
+#perfect_place .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #FFF;
+    background: #09090a3d;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* ==perfect_place part end== */
+/* ==newsletter_part start== */
+#newsletter_part{
+    margin-bottom: 100px;
+}
+#newsletter_part .container{
+    display: flex;
+    justify-content: space-between;
+}
+#newsletter_part .container .left{
+    padding: 40px;
+    margin-right: 24px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #FF5400;
+    border-radius: 16px;
+}
+#newsletter_part .container .left h4{
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+#newsletter_part .container .left p{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 16px 0 24px;
+}
+#newsletter_part .container .left input{
+    padding: 16px 250px 16px 20px;
+}
+#newsletter_part .container .right img{
+    width: 100%;
+}
+#newsletter_part .container .right{
+    position: relative;
+}
+#newsletter_part .container .right .overlay{
+    position: absolute;
+    right: 15px;
+    bottom: 50px;
+    padding: 20px 30px;
+    border-radius: 16px;
+    background: #FF5400;
+    color: white;
+    transform: rotate(-19.628deg);
+}
+#newsletter_part .container .right .overlay p{
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+}
+#newsletter_part .container .right .overlay h5{
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+
+/* ==newsletter_part end== */
