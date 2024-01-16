@@ -1,0 +1,193 @@
+@media screen and (max-width: 576px) {
+    /* ==nav bar start== */
+    .container{
+        margin: 0 auto;
+        padding: 5px;
+    }
+    header nav{
+        width: 100%;
+        padding: 18px;
+    }
+    header nav .list{
+        display: none;
+    }
+    header nav .logo img {
+        width: 28px;
+    }
+    header nav .logo .name {
+        font-size: 21px;
+    }
+    header nav .logo span {
+        font-size: 21px;
+    }
+    header .bar {
+        display: block;
+    }
+    /* ==navbar end== */
+    /* banner part start */
+    #banner_part h1 {
+        font-size: 22px;
+        margin: 0;
+    }
+    #banner_part p {
+        font-size: 14px;
+    }
+    #banner_part .overlay{
+        padding: 32px 16px;
+    }
+    #banner_part .input_details {
+    display: flex;
+    flex-direction: column;
+    padding: 14px;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    }
+    .section_title{
+        font-size: 20px;
+    }
+
+    /* banner part end */
+    /* tour part start */
+    #tour_part{
+        margin: 24px 0;
+    }
+    #tour_part .container{
+        display: flex;
+        flex-direction: column;
+    }
+    #tour_part .left p {
+        font-size: 14px;
+        line-height: 24px;
+        width: 95%;
+        margin: 16px 0;
+    }
+    #tour_part .container{
+        display: flex;
+        flex-direction: column;
+    }
+    #tour_part .left li {
+        font-size: 14px;
+        line-height: 24px;
+        width: 95%;
+        margin-top: 14px;
+    }
+    #tour_part .left .my_button {
+        margin-top: 0;
+    }
+    #tour_part .right {
+        justify-content: center;
+        display: flex;
+    }
+    #tour_part .right img{
+        width: 325px; 
+        margin-top: 24px;
+    }
+    /* tour part end */
+    /* ==destination part start-=-= */
+    #Destination_part{
+        margin-bottom: 24px;
+    }
+    .section_title {
+        font-size: 18px;
+    }
+    #Destination_part .section_description {
+        margin: 16px 28px;
+    }
+    .section_description {
+        text-align: center;
+        font-size: 14px;
+        line-height: 24px;
+    }
+    #Destination_part .images {
+        display: flex;
+        flex-direction: column;
+    }
+    #Destination_part .middle_image {
+        display: flex;
+        flex-direction: column;
+    }
+    #Destination_part .middle_image .middle {
+        width: 100%;
+    }
+    #Destination_part .middle_image .middle_right {
+        width: 100%;
+    }
+    #Destination_part .images #left_one {
+        width: 100%;
+    }
+    #Destination_part .images #left_two {
+        width: 100%;
+        margin-top: 24px;
+    }
+    /* ==destination part end-=-= */
+    /* extra part start== */
+    #extra_part .container h2 {
+        margin-bottom: 20px;
+    }
+    #extra_part .container .guest_love {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 18px;
+    }
+    #extra_part .home{
+        margin-bottom: 18px;
+    }
+    /* extra part end== */
+    /* ==choose part start== */
+    #choose_part {
+        margin:0;
+    }
+    #choose_part .container p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    #choose_part .section_description {
+        margin: 16px 0 16px;
+    }
+    #choose_part .all_box {
+        display: flex;
+        flex-direction: column;
+    }
+    #choose_part .all_box .box_1 {
+        padding: 32px;
+        border-radius: 16px;
+    }
+    #discount_part #second {
+        margin: 0 auto !important;
+    }
+    #discount_part .price .overlay {
+        width: 90%;
+        border-radius: 16px;
+        border: 2px solid #FFF;
+        background: rgba(255, 255, 255, 0.80);
+        backdrop-filter: blur(2.5px);
+        padding: 25px;
+    }
+    #discount_part .price .icons .time p {
+        font-size: 10px;
+    }
+    #discount_part .price .icons .time I {
+        font-size: 10px;
+    }
+    #discount_part .price .overlay h4 {
+        color: #131318;
+        font-size: 18px;
+        font-weight: 800;
+        margin: 18px 0 8px;
+    }
+    #discount_part .price .overlay p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    #discount_part .price .overlay h5 {
+        color: #FF5400;
+        margin: 14px 0 24px;
+    }
+
+
+    /* ==choose part end== */
+
+
+}

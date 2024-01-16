@@ -1,4 +1,7 @@
 /* ==common styles start== */
+.hide{
+    display: none;
+}
 *{
     margin: 0;
     padding: 0;
@@ -88,9 +91,12 @@ header nav .list ul li a{
 header nav .list ul li .active{
     color: #FF5400;
 }
+.bar{
+    display: none;
+}
 /* ==header part end== */
 /* ==banner part start== */
-#banner_part .container{
+#banner_part .container .overlay{
     background: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
     background-repeat: no-repeat;
     background-position: center;
@@ -104,6 +110,33 @@ header nav .list ul li .active{
     height: 100%;
     background: #15151688;
     border-radius: 16px;
+}
+#banner_part .overlay .time{
+    position: relative;
+    align-items: center;
+}
+#banner_part .overlay .time i{
+    position: absolute;
+    top: 17px;
+    right: 15px;
+}
+#banner_part .overlay .type{
+    position: relative;
+    align-items: center;
+}
+#banner_part .overlay .type i{
+    position: absolute;
+    top: 17px;
+    right: 15px;
+}
+#banner_part .overlay .find{
+    position: relative;
+    align-items: center;
+}
+#banner_part .overlay .find i{
+    position: absolute;
+    top: 17px;
+    right: 15px;
 }
 #banner_part h1{
     color: #FFF;
@@ -237,6 +270,43 @@ header nav .list ul li .active{
     padding: 133px 225px;
 }
 /* ==Destination_part end== */
+/* ==extra part start== */
+#extra_part .container h2{
+    margin-bottom: 24px;
+}
+#extra_part .container .guest_love{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 24px;
+    margin-bottom: 24px;
+}
+#extra_part .home{
+    background: #dfdfdf;
+    border-radius: 8px;
+    padding: 20px 10px;
+}
+#extra_part .home img{
+    width: 100%;
+    border-radius: 8px;
+}
+#extra_part .home h4{
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    margin: 8px 0;
+}
+#extra_part .home h6{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+}
+#extra_part .home p{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+/* ==extra part end== */
 /* ==choose part start== */
 #choose_part .section_description{
     margin: 24px 0 48px;
@@ -485,6 +555,9 @@ footer .container .icons{
 }
 footer .container h6{
     text-align: center;
+}
+footer .container hr{
+    margin: 10px 0;
 }
 
 
