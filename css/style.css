@@ -280,13 +280,16 @@ header nav .list ul li .active{
     column-gap: 24px;
     margin-bottom: 24px;
 }
-#extra_part .home{
-    background: #dfdfdf;
-    border-radius: 8px;
-    padding: 20px 10px;
+#extra_part .home {
+	background: #dfdfdf;
+	border-radius: 8px;
+	padding: 20px 10px;
+	width: 280px;
 }
 #extra_part .home img{
+    height: 65%;
     width: 100%;
+    flex: 1;
     border-radius: 8px;
 }
 #extra_part .home h4{
